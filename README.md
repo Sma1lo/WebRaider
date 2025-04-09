@@ -1,11 +1,11 @@
 # WebRaider
 
-![GitHub stars](https://img.shields.io/github/stars/recitative/WebRaider?style=flat-square&color=brightgreen)
-![GitHub forks](https://img.shields.io/github/forks/recitative/WebRaider?style=flat-square&color=brightgreen)
-![GitHub issues](https://img.shields.io/github/issues/recitative/WebRaider?style=flat-square&color=brightgreen)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/recitative/WebRaider?style=flat-square&color=brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/Sma1lo/WebRaider?style=flat-square&color=brightgreen)
+![GitHub forks](https://img.shields.io/github/forks/Sma1lo/WebRaider?style=flat-square&color=brightgreen)
+![GitHub issues](https://img.shields.io/github/issues/Sma1lo/WebRaider?style=flat-square&color=brightgreen)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Sma1lo/WebRaider?style=flat-square&color=brightgreen)
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-LICENSE?style=flat-square&color=brightgreen.svg" alt="License"/></a>
-![Contributors](https://img.shields.io/github/contributors/recitative/WebRaider?style=flat-square&color=brightgreen)
+![Contributors](https://img.shields.io/github/contributors/Sma1lo/WebRaider?style=flat-square&color=brightgreen)
 
 > [!WARNING]
 > The author is not responsible for your actions. The program was developed only for professionals. The program itself is intended for educational purposes only.
