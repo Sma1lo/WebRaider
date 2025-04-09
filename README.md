@@ -20,12 +20,12 @@
 
 - Simulate multiple concurrent users to test website performance.
 - Monitor response times and server behavior under load.
-- Support for various HTTP methods (GET, POST, etc.).
+- Support for various HTTP methods (GET, POST).
 - Detailed reporting of HTTP status codes and response times.
 
 ## HTTP Status Codes
 
- [HTTP Status code](https://github.com/recitative/WebRaider/blob/main/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
+ [HTTP Status code](https://github.com/Sma1lo/WebRaider/blob/WebRaider-v1.0/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
 
 ## Installation
 
@@ -36,11 +36,15 @@ git clone https://github.com/Sma1lo/WebRaider
 ```
 
 ```bash
-cd WebRaider/src/main/java
+cd WebRaider
 ```
 
 ```bash
 git checkout WebRaider-v1.0
+```
+
+```bash
+cd src/main/java
 ```
 
 ```bash
