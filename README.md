@@ -20,12 +20,12 @@
 
 - Simulate multiple concurrent users to test website performance.
 - Monitor response times and server behavior under load.
-- Support for various HTTP methods (GET, POST, PUT, DELETE.).
+- Support for various HTTP methods (GET, POST, PUT, HEAD, DELETE.).
 - Detailed reporting of HTTP status codes and response times.
 
 ## HTTP Status Codes
 
- [HTTP Status code](https://github.com/recitative/WebRaider/blob/main/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
+ [HTTP Status code](https://github.com/Sma1lo/WebRaider/blob/main/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
 
 ## Installation
 
