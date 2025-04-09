@@ -36,7 +36,7 @@ git clone https://github.com/Sma1lo/WebRaider
 ```
 
 ```bash
-git checkout WebRaider-v2.0
+git checkout WebRaider-v1.0
 ```
 
 ```bash
