@@ -20,7 +20,7 @@
 
 - Simulate multiple concurrent users to test website performance.
 - Monitor response times and server behavior under load.
-- Support for various HTTP methods (GET, POST, etc.).
+- Support for various HTTP methods (GET, POST, PUT, DELETE.).
 - Detailed reporting of HTTP status codes and response times.
 
 ## HTTP Status Codes
