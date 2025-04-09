@@ -27,7 +27,7 @@ public class WebRaider {
             while (true) {
                 System.out.println(ASCIIArt.WEBRAIDER);
                 System.out.println(ConsoleColor.RED + "\t  ===" + ConsoleColor.RESET + " WebRaider " + ConsoleColor.RED + "v2.0 -" + ConsoleColor.RESET + " Enhanced Edition " + ConsoleColor.RED + "===" + ConsoleColor.RESET);
-                System.out.println("\t\t\t\t   Author: " + ConsoleColor.RED + "Sma1lo" + ConsoleColor.RESET);
+                System.out.println("\t\t   Author: " + ConsoleColor.RED + "Sma1lo" + ConsoleColor.RESET);
                 System.out.println(ConsoleColor.RED + "\t  =========================================" + ConsoleColor.RESET);
                 System.out.println("\n[" + ConsoleColor.RED + 1 + ConsoleColor.RESET + "]" + ConsoleColor.RED + " Start" + ConsoleColor.RESET);
                 System.out.println("[" + ConsoleColor.RED + 0 + ConsoleColor.RESET + "]" + ConsoleColor.RED + " Exit" + ConsoleColor.RESET);
