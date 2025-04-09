@@ -36,11 +36,11 @@ git clone https://github.com/Sma1lo/WebRaider
 ```
 
 ```bash
-git checkout WebRaider-v1.0
+cd WebRaider/src/main/java
 ```
 
 ```bash
-cd WebRaider/src/main/java
+git checkout WebRaider-v1.0
 ```
 
 ```bash
