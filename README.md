@@ -25,7 +25,7 @@
 
 ## HTTP Status Codes
 
- [HTTP Status code](https://github.com/Sma1lo/WebRaider/blob/main/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
+ [HTTP Status code](https://github.com/Sma1lo/WebRaider/blob/WebRaider-v2.0/HTTP_STATUS_CODES.md) are needed to understand how the program works, they have been moved to a separate file.
 
 ## Installation
 
