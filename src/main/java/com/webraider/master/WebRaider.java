@@ -6,8 +6,9 @@ import com.webraider.master.style.ConsoleColor;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/*
-@author Sma1lo
+/**
+*
+*@author Sma1lo
 */
 
 public class WebRaider {
