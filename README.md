@@ -32,7 +32,11 @@
 ### Linux
 
 ```bash
-git clone https://github.com/recitative/WebRaider
+git clone https://github.com/Sma1lo/WebRaider
+```
+
+```bash
+git checkout WebRaider-v2.0
 ```
 
 ```bash
