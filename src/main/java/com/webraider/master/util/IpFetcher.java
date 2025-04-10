@@ -20,7 +20,6 @@ public class IpFetcher {
             "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt",
             "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
             "https://www.shodan.io/search?query=USA",
-            "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
             "https://geonode.com/free-proxy-list",
             "https://hasdata.com/free-proxy-list",
             "https://www.proxyrack.com/free-proxy-list/"
