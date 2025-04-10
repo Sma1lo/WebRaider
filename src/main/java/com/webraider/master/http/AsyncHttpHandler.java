@@ -10,6 +10,11 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ *
+ *@author Sma1lo
+ */
+
 public class AsyncHttpHandler {
     private static final HttpClient CLIENT = HttpClient.newHttpClient();
 
