@@ -10,6 +10,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ *
+ *@author Sma1lo
+ */
+
 public class WebRaider {
     public static void main(String[] args) {
         try {
