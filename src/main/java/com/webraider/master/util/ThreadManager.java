@@ -8,19 +8,26 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- *
- *@author Sma1lo
- */
-
 public class ThreadManager {
-    public static void executeRequests(String targetUrl, int numRequests, String method, String body, List<String> ipList, AtomicInteger sent, AtomicInteger success, AtomicInteger failed) {
+    public static void executeMultiThreadedRequests(
+            String targetUrl, int numThreads, int requestsPerThread, String method, String body,
+            List<String> ipList, AtomicInteger sent, AtomicInteger success, AtomicInteger failed, int delayMs) {
+
         List<CompletableFuture<Void>> futures = new ArrayList<>();
         Random random = new Random();
 
-        for (int i = 0; i < numRequests; i++) {
-            String fakeIp = ipList.isEmpty() ? "192.168.1." + random.nextInt(255) : ipList.get(random.nextInt(ipList.size()));
-            CompletableFuture<Void> future = AsyncHttpHandler.sendRequest(targetUrl, method, body, fakeIp, sent, success, failed);
+        for (int t = 0; t < numThreads; t++) {
+            CompletableFuture<Void> future = CompletableFuture.runAsync(() -> {
+                for (int i = 0; i < requestsPerThread; i++) {
+                    String fakeIp = ipList.isEmpty()
+                            ? "192.168.1." + random.nextInt(255)
+                            : ipList.get(random.nextInt(ipList.size()));
+                    AsyncHttpHandler.sendRequest(targetUrl, method, body, fakeIp, sent, success, failed).join();
+                    try {
+                        Thread.sleep(delayMs);
+                    } catch (InterruptedException ignored) {}
+                }
+            });
             futures.add(future);
         }
 
