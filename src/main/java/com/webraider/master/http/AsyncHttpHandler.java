@@ -10,11 +10,6 @@ import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- *
- *@author Sma1lo
- */
-
 public class AsyncHttpHandler {
     private static final HttpClient CLIENT = HttpClient.newHttpClient();
 
@@ -26,7 +21,8 @@ public class AsyncHttpHandler {
             "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
     };
 
-    public static CompletableFuture<Void> sendRequest(String targetUrl, String method, String body, String fakeIp, AtomicInteger sent, AtomicInteger success, AtomicInteger failed) {
+    public static CompletableFuture<Void> sendRequest(String targetUrl, String method, String body, String fakeIp,
+                                                      AtomicInteger sent, AtomicInteger success, AtomicInteger failed) {
         Random random = new Random();
         String userAgent = USER_AGENTS[random.nextInt(USER_AGENTS.length)];
 
@@ -35,7 +31,7 @@ public class AsyncHttpHandler {
                 .header("User-Agent", userAgent)
                 .header("X-Forwarded-For", fakeIp);
 
-        switch (method.toUpperCase()) {
+        switch (method) {
             case "GET":
                 requestBuilder.GET();
                 break;
