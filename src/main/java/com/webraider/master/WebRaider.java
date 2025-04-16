@@ -34,7 +34,7 @@ public class WebRaider {
                 String command = scanner.nextLine().trim();
 
                 if (command.equals("0")) {
-                    System.out.println(ConsoleColor.GREEN + "[INFO] " + ConsoleColor.RESET + " Exiting WebRaider.");
+                    System.out.println(ConsoleColor.GREEN + "[INFO]" + ConsoleColor.RESET + " Exiting WebRaider.");
                     break;
                 } else if (command.equals("1")) {
                     InputHandler inputHandler = new InputHandler();
