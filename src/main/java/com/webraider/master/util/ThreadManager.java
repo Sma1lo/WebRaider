@@ -10,9 +10,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
-*
-*@author Sma1lo
-*/
+ *
+ *@author Sma1lo
+ */
 
 public class ThreadManager {
 
