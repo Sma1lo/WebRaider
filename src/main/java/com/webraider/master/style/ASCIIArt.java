@@ -1,9 +1,9 @@
 package com.webraider.master.style;
 
 /**
-*
-*@author Sma1lo
-*/
+ *
+ *@author Sma1lo
+ */
 
 public class ASCIIArt {
     public static final String WEBRAIDER = " __          __  _" + ConsoleColor.RED + "     _____       _     _           \n" + ConsoleColor.RESET +
