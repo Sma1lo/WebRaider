@@ -12,9 +12,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
-*
-*@author Sma1lo
-*/
+ *
+ *@author Sma1lo
+ */
 
 public class HttpRequestHandler {
 
