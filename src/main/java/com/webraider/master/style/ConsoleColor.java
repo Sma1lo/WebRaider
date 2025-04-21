@@ -1,9 +1,9 @@
 package com.webraider.master.style;
 
 /**
-*
-*@author Sma1lo
-*/
+ *
+ *@author Sma1lo
+ */
 
 public class ConsoleColor {
 
