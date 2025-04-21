@@ -6,9 +6,9 @@ import com.webraider.master.style.ASCIIArt;
 import java.util.Scanner;
 
 /**
-*
-*@author Sma1lo
-*/
+ *
+ *@author Sma1lo
+ */
 
 public class InputHandler {
 
