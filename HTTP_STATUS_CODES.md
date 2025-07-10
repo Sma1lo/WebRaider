@@ -1,4 +1,3 @@
-
 ## HTTP Status Codes
 
 ### 1. Informational
